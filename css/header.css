@@ -2,8 +2,7 @@ header {
     display: grid;
 
 }
-
-ul {
+header ul {
     padding: 0px;
     list-style: none;
     font-size: 20px;
@@ -12,13 +11,13 @@ ul {
     align-items: center;
 }
 
-a {
+header a {
     text-decoration: none;
     color: white;
 
 }
 
-h1 {
+header h1 {
     color: white;
     font-size: 80px;
 }

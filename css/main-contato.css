@@ -1,12 +1,13 @@
 main {
     width: 100%;
-    height: 573.267px;
     flex-shrink: 0;
     background: #330503;
 }
+
 #formulario {
     padding: 40px 0px;
 }
+
 h1 {
     text-align: center;
     color: #FFF;
@@ -15,4 +16,32 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.conteiner-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#formulario-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#informacoes-formulario {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    border-radius: 5px 0px 0px 5px;
+    background: #290403;
+    gap: 60px;
+    padding: 70px 0px 45px 70px;
+}
+.conteiner-info {
+    display: flex;
+    gap: 10px;
+    width: 60%;
 }
