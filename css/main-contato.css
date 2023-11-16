@@ -23,12 +23,14 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-bottom: 40px;
 }
+
 #formulario-contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 #informacoes-formulario {
@@ -40,8 +42,53 @@ h1 {
     gap: 60px;
     padding: 70px 0px 45px 70px;
 }
+
 .conteiner-info {
     display: flex;
     gap: 10px;
     width: 60%;
+}
+
+#detalhe-formulario {
+    margin-top: 60px;
+}
+#formulario form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;;
+    padding: 75px 0px 45px 75px;
+    gap: 25px;
+    background: var(--W, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: #000000;
+    font-weight: 700;
+}
+
+#formulario form input,select, textarea {
+    width: 336px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid var(--c02, #EDEDED);
+    background: var(--c01, #F7F7F7);
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#formulario form textarea {
+    width: auto;
+    height: auto;
+}
+.botao-formulario {
+    display: inline-flex;
+height: 64.834px;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: linear-gradient(180deg, #FFBF00 0%, #F2A60C 100%);
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
 }
