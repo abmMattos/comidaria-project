@@ -1,6 +1,11 @@
 /* header */
 @import "/css/header.css";
 
+/* contato */
 @import "/css/main-contato.css";
+
+/* cardapio */
+@import "/css/main-cardapio.css";
+
 /* footer */
 @import "/css/footer.css";

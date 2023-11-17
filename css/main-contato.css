@@ -1,4 +1,4 @@
-main {
+#main-contato {
     width: 100%;
     flex-shrink: 0;
     background: #330503;
@@ -33,7 +33,6 @@ main {
 }
 
 #informacoes-formulario {
-    
     display: flex;
     flex-direction: column;
     color: #FFF;
@@ -41,22 +40,23 @@ main {
     background: #290403;
     gap: 59px;
     padding: 70px 0px 45px 70px;
+    width: 30%;
 }
 
 .conteiner-info {
     display: flex;
     gap: 10px;
-    width: 60%;
+    width: 75%;
 }
 
 #detalhe-formulario {
-    margin-top: 115px;
+    margin-top: 100px;
 }
 
 #formulario form {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 54%;
     padding: 75px 0px 75px 75px;
     gap: 30px;
     background: var(--W, #FFF);
