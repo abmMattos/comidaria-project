@@ -1,7 +1,8 @@
 #main-contato {
     width: 100%;
     flex-shrink: 0;
-    background: #330503;
+    background: linear-gradient(#330503 70%, #f2f2f2 30%);
+
 }
 
 .titulo-pagina h1 {
