@@ -40,9 +40,40 @@
 #cardapio-titulo {
     color: #000000;
 }
-#main-cardapio .categoria .titulo-cateogira h2 {
+#main-cardapio .categoria .titulo-cateogira h2 u {
     font-family: 'Jim Nightshade', cursive;
     font-size: 62px;
     padding: 40px 0px;
     font-weight: 400;
+    text-decoration-color: #640A07;
+}
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    gap: 20px;
+    padding: 60px 0px;
+}
+.item-categoria {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #ffff;
+    padding: 20px 15px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.descricao-item {
+    width: 80%;
+}
+.valor-item {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.valor-item span {
+    color: #500806;
+    font-weight: 700;
 }
